@@ -583,6 +583,19 @@
     .footer-left span { color: var(--accent); }
     .footer-right { font-family: var(--font-mono); font-size: 11px; color: var(--muted); }
 
+    /* ─── TYPEWRITER ─── */
+    #typewriter {
+      color: var(--accent2);
+      font-style: normal;
+      position: relative;
+    }
+    #typewriter::after {
+      content: '|';
+      color: var(--accent);
+      animation: cursor-blink 0.7s step-end infinite;
+      margin-left: 1px;
+    }
+
     /* ─── SCROLL ANIMATIONS ─── */
     .fade-in {
       opacity: 0; transform: translateY(20px);
@@ -628,9 +641,9 @@
       <span class="name-first">Osasu</span>
       <span class="name-last">Omangbon</span>
     </h1>
-    <p class="hero-role">Product Manager · <em>Early-Stage Builder</em> · Benin City, Nigeria</p>
+    <p class="hero-role">Product Manager · <em id="typewriter"></em> · Benin City, Nigeria</p>
     <p class="hero-desc">
-      I build products from <strong>zero to one</strong> — turning ambiguous problems into clear roadmaps, researching users deeply, and shipping things people actually want. Experienced across <strong>fintech, edtech, and cultural technology</strong>. I also vibe-code, leverage AI tools, and get my hands dirty in the craft of building.
+      I build products from <strong>zero to one</strong> — turning ambiguous problems into structured product opportunities, aligning business goals with user needs, and driving measurable growth. Experienced across <strong>fintech, edtech, cultural technology, and health</strong>. I vibe-code, leverage LLMs and AI tools, and get my hands dirty in the craft of building.
     </p>
     <div class="hero-cta">
       <a href="Osasu_Omangbon-resume.pdf" download class="btn btn-primary">⬇ Download Resume</a>
@@ -684,13 +697,13 @@
   <div class="about-grid">
     <div class="about-text fade-in">
       <p>
-        I'm a Product Manager with a deep passion for <strong>zero-to-one product building</strong> — the messy, exhilarating work of taking something from a blank page to a product that matters. I've done this across <strong>fintech</strong> at Paxful, <strong>edtech</strong> at GritinAI, and am currently building <strong>cultural technology</strong> at Afroart Studios.
+        I'm a Product Manager and early-stage product builder with experience across <strong>fintech, edtech, cultural technology, and health</strong>. I specialise in product discovery, user research, roadmap planning, feature prioritization, and cross-functional execution — turning ambiguous problems into structured product opportunities.
       </p>
       <p>
-        My approach is rooted in <em>deep user empathy</em>. I believe great products start with obsessive curiosity about the people who use them — their frustrations, motivations, and workarounds. I combine that with a structured product thinking process: discovery, prioritization, clear requirements, and relentless iteration.
+        As Co-founder of <strong>Afroart Studios</strong>, I secured a <em>$20,000 grant</em> and led product strategy for a 3D cultural asset platform focused on digitizing and monetizing African artifacts — resulting in a successful listing on <strong>Fab by Epic Games</strong>, reaching millions of Unreal Engine users worldwide.
       </p>
       <p>
-        I also believe in building. I use <strong>AI tools and vibe-coding</strong> to prototype quickly, validate ideas, and ship MVPs without waiting for engineering bandwidth. Standup Digest and FastIQ are products I built myself. I'm a PM who ships.
+        I also believe in building. I use <strong>LLMs, AI tools, and vibe-coding</strong> to prototype quickly, validate ideas, and ship MVPs without waiting for engineering bandwidth. Standup Digest and FastIQ are products I built and shipped myself. I'm a PM who ships.
       </p>
       <div class="zero-one-badge">
         <span class="icon">🚀</span>
@@ -747,7 +760,7 @@
         <div class="sidebar-stat"><span>Fintech</span><span class="val">✓</span></div>
         <div class="sidebar-stat"><span>Edtech</span><span class="val">✓</span></div>
         <div class="sidebar-stat"><span>Cultural Tech</span><span class="val">✓</span></div>
-        <div class="sidebar-stat"><span>Digital Health</span><span class="val">✓</span></div>
+        <div class="sidebar-stat"><span>Digital Health</span><span class="val">✓ Active Interest</span></div>
       </div>
     </div>
   </div>
@@ -828,6 +841,7 @@
         <span class="skill-tag">Figma</span>
         <span class="skill-tag">Notion</span>
         <span class="skill-tag">Trello</span>
+        <span class="skill-tag">Jira</span>
         <span class="skill-tag">Google Workspace</span>
         <span class="skill-tag">Vercel</span>
         <span class="skill-tag">Miro</span>
@@ -843,7 +857,7 @@
         <span class="skill-tag highlight">Fintech</span>
         <span class="skill-tag highlight">Edtech</span>
         <span class="skill-tag highlight">Cultural Tech</span>
-        <span class="skill-tag">Digital Health</span>
+        <span class="skill-tag highlight">Digital Health</span>
         <span class="skill-tag">Marketplace</span>
         <span class="skill-tag">B2C / B2B</span>
       </div>
@@ -866,28 +880,28 @@
         <span class="exp-badge badge-current">CURRENT</span>
       </div>
       <div class="exp-role">Co-Founder & Product Lead</div>
-      <div class="exp-date">Feb 2022 – Present · Nigeria</div>
+      <div class="exp-date">Mar 2024 – Present · Nigeria</div>
       <ul class="exp-bullets">
-        <li>Co-founded a cultural technology platform exploring <strong>digital preservation and monetization of African 3D artifacts</strong> on global marketplaces including Fab (Epic Games).</li>
-        <li>Led product discovery through market research, competitor analysis, and stakeholder conversations to identify opportunities in cultural technology.</li>
-        <li>Defined early product vision, feature priorities, and UX direction for the digital artifact platform concept.</li>
-        <li>Translated user and partner insights into clear product requirements for designers and developers.</li>
-        <li>Managed operational planning and early experimentation around <strong>distribution and monetization models</strong>.</li>
+        <li>Co-founded and led product strategy for a cultural technology platform digitizing and monetizing African artifacts as <strong>high-fidelity 3D assets</strong> for global creators, game developers, educators, and cultural institutions.</li>
+        <li><strong>Secured a $20,000 grant</strong> to support early product development, 3D scanning efforts, platform exploration, and market validation.</li>
+        <li>Conducted product discovery through stakeholder interviews with artists, cultural institutions, creators, and game developers to understand user needs, marketplace opportunities, and adoption barriers.</li>
+        <li>Defined the initial product vision, requirements, roadmap, and distribution strategy — resulting in a <strong>successful listing on Fab (Epic Games marketplace)</strong>, reaching millions of Unreal Engine users worldwide.</li>
+        <li>Drove market and competitive research in the 3D asset space to identify opportunities for authentic African cultural representation and marketplace monetization.</li>
       </ul>
     </div>
 
     <div class="exp-item fade-in">
       <div class="exp-meta">
         <span class="exp-company">GritinAI</span>
-        <span class="exp-badge badge-past">2022 – 2024</span>
+        <span class="exp-badge badge-past">2023 – 2024</span>
       </div>
       <div class="exp-role">Product Associate</div>
-      <div class="exp-date">Jul 2022 – May 2024 · Benin City, Nigeria</div>
+      <div class="exp-date">Jul 2023 – May 2024 · Benin City, Nigeria</div>
       <ul class="exp-bullets">
-        <li>Empowered <strong>200+ learners</strong> with data analytics skills, achieving a 90% completion rate and ~40% referral-driven growth.</li>
-        <li>Conducted market and competitor analysis to support product improvements and program positioning.</li>
-        <li>Streamlined feedback loops between learners and internal teams, improving program experience and satisfaction scores.</li>
-        <li>Helped define program structure and product improvements based on learner insights and performance metrics.</li>
+        <li>Supported the scaling of a data analytics learning program that trained <strong>2,000+ learners</strong>, contributing to a 90% completion rate and approximately 40% referral-driven growth.</li>
+        <li>Conducted market and competitor analysis to support product improvements, program positioning, and learner acquisition strategy.</li>
+        <li>Collaborated with operations, marketing, instructors, and technical teams to align product delivery with business goals and learner expectations.</li>
+        <li>Designed and improved feedback loops between learners and internal teams, helping identify friction points and strengthen program delivery.</li>
       </ul>
     </div>
 
@@ -899,9 +913,9 @@
       <div class="exp-role">Associate Product Manager (Contract)</div>
       <div class="exp-date">Apr 2021 – Aug 2022 · USA (Remote)</div>
       <ul class="exp-bullets">
-        <li>Contributed to growth and product initiatives that led to <strong>5,000+ new user acquisitions</strong> in the Nigerian market.</li>
-        <li>Conducted in-depth competitive analysis of fintech alternatives, presenting insights to inform product and revenue decisions.</li>
-        <li>Collaborated with engineering, compliance, and business teams to support execution of product and growth strategies.</li>
+        <li>Supported product and growth initiatives in a global fintech peer-to-peer marketplace, contributing to the acquisition of <strong>5,000+ new users</strong> in the Nigerian market.</li>
+        <li>Conducted in-depth competitive analysis of fintech alternatives and presented insights that informed product features and revenue strategies.</li>
+        <li>Collaborated closely with engineering, compliance, and business teams to execute product and growth initiatives in a <strong>highly regulated environment</strong>.</li>
       </ul>
     </div>
 
@@ -942,15 +956,14 @@
         <div class="project-type">Cultural Technology · 3D Assets · Marketplace</div>
         <div class="project-title">Afroart Studios</div>
         <p class="project-desc">
-          A cultural technology startup digitizing and monetizing African artifacts and cultural assets using 3D scanning and modeling. Listed on Fab (Epic Games marketplace) — making African cultural heritage accessible to global game developers, designers, and creators.
+          A cultural technology startup digitizing and monetizing African artifacts and cultural assets using 3D scanning and modeling. Secured a <strong>$20,000 grant</strong> for early development. Listed on Fab (Epic Games marketplace) — making African cultural heritage accessible to millions of Unreal Engine developers, game designers, and creators globally.
         </p>
         <ul class="project-highlights">
           <li><strong>Problem:</strong> African cultural assets are underrepresented in global 3D/game asset libraries</li>
-          <li><strong>Solution:</strong> High-fidelity 3D digitization + marketplace distribution (Fab by Epic Games)</li>
+          <li><strong>Solution:</strong> High-fidelity 3D digitization + marketplace distribution via Fab by Epic Games</li>
+          <li><strong>Grant:</strong> Secured $20,000 in funding for cultural technology development & 3D scanning</li>
           <li><strong>Discovery:</strong> Stakeholder interviews with creators, cultural institutions, and game devs</li>
-          <li><strong>Moat:</strong> First-mover in authentic African 3D asset monetization</li>
-          <li><strong>Grant:</strong> Secured $20,000 in funding for cultural technology development</li>
-          <li><strong>Channel:</strong> Fab marketplace — reaching millions of Unreal Engine developers</li>
+          <li><strong>Distribution:</strong> Listed on Fab — reaching millions of Unreal Engine users worldwide</li>
         </ul>
         <div class="project-tags">
           <span class="project-tag">0→1</span>
@@ -961,7 +974,6 @@
         </div>
       </div>
       <div class="project-footer">
-        <div class="project-stat"><strong>Active</strong>Listed on Fab</div>
         <div class="project-stat"><strong>$20K</strong>Grant Secured</div>
         <div class="project-stat"><strong>Role</strong>Co-Founder & PM</div>
       </div>
@@ -1149,7 +1161,7 @@
           <div class="t-line">&nbsp;&nbsp;<span class="t-key">"location"</span>: <span class="t-val">"Benin City, NG"</span>,</div>
           <div class="t-line">&nbsp;&nbsp;<span class="t-key">"industries"</span>: [</div>
           <div class="t-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="t-val">"fintech"</span>, <span class="t-val">"edtech"</span>,</div>
-          <div class="t-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="t-val">"cultural-tech"</span></div>
+          <div class="t-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="t-val">"cultural-tech"</span>, <span class="t-val">"health"</span></div>
           <div class="t-line">&nbsp;&nbsp;],</div>
           <div class="t-line">&nbsp;&nbsp;<span class="t-key">"superpower"</span>: <span class="t-val">"vibe-coding + pm"</span>,</div>
           <div class="t-line">&nbsp;&nbsp;<span class="t-key">"status"</span>: <span class="t-cmd">"open_to_work"</span>,</div>
@@ -1167,7 +1179,7 @@
     <span>Osasu Omangbon</span> · PM · Built with AI & vibe-coding
   </div>
   <div class="footer-right">
-    © 2025 · Benin City, Nigeria
+    © 2026 · Benin City, Nigeria
   </div>
 </footer>
 
@@ -1234,6 +1246,51 @@
         </div>`;
     }
   }
+
+  // ─── TYPEWRITER EFFECT ───
+  const typewriterEl = document.getElementById('typewriter');
+  const phrases = [
+    'Early-Stage Builder',
+    'Zero → One PM',
+    'Vibe Coder',
+    'User Researcher',
+    'Fintech Builder',
+    'Health Tech Enthusiast',
+    'Cultural Tech Pioneer',
+    'Product Discoverer',
+  ];
+  let phraseIndex = 0;
+  let charIndex = 0;
+  let isDeleting = false;
+  let typingTimeout;
+
+  function type() {
+    const current = phrases[phraseIndex];
+    if (isDeleting) {
+      typewriterEl.textContent = current.substring(0, charIndex - 1);
+      charIndex--;
+    } else {
+      typewriterEl.textContent = current.substring(0, charIndex + 1);
+      charIndex++;
+    }
+
+    let speed = isDeleting ? 45 : 90;
+
+    if (!isDeleting && charIndex === current.length) {
+      // Finished typing — pause then start deleting
+      speed = 1800;
+      isDeleting = true;
+    } else if (isDeleting && charIndex === 0) {
+      // Finished deleting — move to next phrase
+      isDeleting = false;
+      phraseIndex = (phraseIndex + 1) % phrases.length;
+      speed = 300;
+    }
+
+    typingTimeout = setTimeout(type, speed);
+  }
+
+  type();
 
   loadMediumArticles();
 </script>
